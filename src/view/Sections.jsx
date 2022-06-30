@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Table } from "./ProductList/ProductView";
 import "./section.scss";
 
@@ -31,7 +31,7 @@ export const Section = (props) => {
   return (
     <div className="section">
       <h2>Product List</h2>
-      {loading && <div className="loading">loading product data...</div>}{" "}
+      {loading && <div className="loading">fetching product data...</div>}{" "}
       {data.length > 0 && <Table data={data} />}
       {error && <div> {error}</div>}
     </div>
