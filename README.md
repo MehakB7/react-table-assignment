@@ -1,16 +1,11 @@
+# React-table Assigmenet
 
-# React-table Assigmenet 
-Created a table which using react-table library with sorting and filtering.
-Done two level filtering one is global and another is column.
-
-
-
-
+Question id : 2.A
+Design a basic web app In which you have to implement sorting and filter options, for data you can use any third-party API’s
 
 ## Authors
 
 - [@Mehak](https://www.github.com/octokatherine)
-
 
 ## Run Locally
 
@@ -29,7 +24,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  yarn 
+  yarn
 ```
 
 Start the server
@@ -38,13 +33,8 @@ Start the server
   yarn start
 ```
 
-
-
-
 ## Features
 
-- Global filtering 
-- column filtering 
+- Global filtering
+- column filtering
 - sorting on price
-
-
